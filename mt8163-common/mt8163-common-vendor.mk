@@ -235,7 +235,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/mt8163-common/proprietary/lib/libfmcust.so:system/lib/libfmcust.so \
     vendor/bq/mt8163-common/proprietary/lib/libged.so:system/lib/libged.so \
     vendor/bq/mt8163-common/proprietary/lib/libgpu_aux.so:system/lib/libgpu_aux.so \
-    vendor/bq/mt8163-common/proprietary/lib/libgui_ext.so:system/lib/libgui_ext.so \
     vendor/bq/mt8163-common/proprietary/lib/libhwm.so:system/lib/libhwm.so \
     vendor/bq/mt8163-common/proprietary/lib/libimageio.so:system/lib/libimageio.so \
     vendor/bq/mt8163-common/proprietary/lib/libimageio_FrmB.so:system/lib/libimageio_FrmB.so \
@@ -279,7 +278,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/mt8163-common/proprietary/lib/libstagefright_yuv.so:system/lib/libstagefright_yuv.so \
     vendor/bq/mt8163-common/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/bq/mt8163-common/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
-    vendor/bq/mt8163-common/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
     vendor/bq/mt8163-common/proprietary/lib/liburee_meta_drmkeyinstall_v2.so:system/lib/liburee_meta_drmkeyinstall_v2.so \
     vendor/bq/mt8163-common/proprietary/lib/libvc1dec_sa.ca7.so:system/lib/libvc1dec_sa.ca7.so \
     vendor/bq/mt8163-common/proprietary/lib/libvcodec_cap.so:system/lib/libvcodec_cap.so \
@@ -384,7 +382,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/mt8163-common/proprietary/lib64/libfmcust.so:system/lib64/libfmcust.so \
     vendor/bq/mt8163-common/proprietary/lib64/libged.so:system/lib64/libged.so \
     vendor/bq/mt8163-common/proprietary/lib64/libgpu_aux.so:system/lib64/libgpu_aux.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libgui_ext.so:system/lib64/libgui_ext.so \
     vendor/bq/mt8163-common/proprietary/lib64/libhwm.so:system/lib64/libhwm.so \
     vendor/bq/mt8163-common/proprietary/lib64/libimageio.so:system/lib64/libimageio.so \
     vendor/bq/mt8163-common/proprietary/lib64/libimageio_FrmB.so:system/lib64/libimageio_FrmB.so \
@@ -424,7 +421,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/mt8163-common/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
     vendor/bq/mt8163-common/proprietary/lib64/libterservice.so:system/lib64/libterservice.so \
     vendor/bq/mt8163-common/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libui_ext.so:system/lib64/libui_ext.so \
     vendor/bq/mt8163-common/proprietary/lib64/liburee_meta_drmkeyinstall_v2.so:system/lib64/liburee_meta_drmkeyinstall_v2.so \
     vendor/bq/mt8163-common/proprietary/lib64/libvcodec_cap.so:system/lib64/libvcodec_cap.so \
     vendor/bq/mt8163-common/proprietary/lib64/libvcodec_utility.so:system/lib64/libvcodec_utility.so \
