@@ -24,4 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/freezerfhd/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-rp30-ri30.5-v24-tree7-2-wmd.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/head-y0-yi45-p0-pi45-rp30-ri30.5-v24-tree7-2-wmd.bin \
     vendor/bq/freezerfhd/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-r.8.1.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-r.8.1.bin \
     vendor/bq/freezerfhd/proprietary/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-y-r.8.1.bin:system/vendor/pittpatt/models/detection/yaw_roll_face_detectors.7.1/pose-y-r.8.1.bin \
-    vendor/bq/freezerfhd/proprietary/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin
+    vendor/bq/freezerfhd/proprietary/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin:system/vendor/pittpatt/models/recognition/face.face.y0-y0-71-N-tree_7-wmd.bin \
+    vendor/bq/freezerfhd/proprietary/lib/libtz_uree.so:system/lib/libtz_uree.so \
+    vendor/bq/freezerfhd/proprietary/lib64/libtz_uree.so:system/lib64/libtz_uree.so
