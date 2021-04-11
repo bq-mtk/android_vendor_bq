@@ -139,7 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/mt8163-common/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
     vendor/bq/mt8163-common/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
     vendor/bq/mt8163-common/proprietary/lib/hw/sensors.mt8163.so:system/lib/hw/sensors.mt8163.so \
-    vendor/bq/mt8163-common/proprietary/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
     vendor/bq/mt8163-common/proprietary/lib/lib3a.so:system/lib/lib3a.so \
     vendor/bq/mt8163-common/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
     vendor/bq/mt8163-common/proprietary/lib/libGdmaScalerPipe.so:system/lib/libGdmaScalerPipe.so \
@@ -305,7 +304,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/mt8163-common/proprietary/lib64/hw/local_time.default.so:system/lib64/hw/local_time.default.so \
     vendor/bq/mt8163-common/proprietary/lib64/hw/power.default.so:system/lib64/hw/power.default.so \
     vendor/bq/mt8163-common/proprietary/lib64/hw/sensors.mt8163.so:system/lib64/hw/sensors.mt8163.so \
-    vendor/bq/mt8163-common/proprietary/lib64/hw/vibrator.default.so:system/lib64/hw/vibrator.default.so \
     vendor/bq/mt8163-common/proprietary/lib64/lib3a.so:system/lib64/lib3a.so \
     vendor/bq/mt8163-common/proprietary/lib64/libBnMtkCodec.so:system/lib64/libBnMtkCodec.so \
     vendor/bq/mt8163-common/proprietary/lib64/libGdmaScalerPipe.so:system/lib64/libGdmaScalerPipe.so \
