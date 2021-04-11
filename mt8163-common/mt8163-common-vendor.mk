@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/mt8163-common/proprietary/bin/hdcpkey:system/bin/hdcpkey \
     vendor/bq/mt8163-common/proprietary/bin/init.gprs-pppd:system/bin/init.gprs-pppd \
     vendor/bq/mt8163-common/proprietary/bin/kisd:system/bin/kisd \
-    vendor/bq/mt8163-common/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
     vendor/bq/mt8163-common/proprietary/bin/lsm303md:system/bin/lsm303md \
     vendor/bq/mt8163-common/proprietary/bin/magd:system/bin/magd \
     vendor/bq/mt8163-common/proprietary/bin/matv:system/bin/matv \
@@ -268,7 +267,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/mt8163-common/proprietary/lib/libril_dongle.so:system/lib/libril_dongle.so \
     vendor/bq/mt8163-common/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
     vendor/bq/mt8163-common/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
-    vendor/bq/mt8163-common/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
     vendor/bq/mt8163-common/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/bq/mt8163-common/proprietary/lib/libstagefright_avc_common.so:system/lib/libstagefright_avc_common.so \
     vendor/bq/mt8163-common/proprietary/lib/libstagefright_hdcprx.so:system/lib/libstagefright_hdcprx.so \
@@ -304,6 +302,7 @@ PRODUCT_COPY_FILES += \
     vendor/bq/mt8163-common/proprietary/lib64/hw/local_time.default.so:system/lib64/hw/local_time.default.so \
     vendor/bq/mt8163-common/proprietary/lib64/hw/power.default.so:system/lib64/hw/power.default.so \
     vendor/bq/mt8163-common/proprietary/lib64/hw/sensors.mt8163.so:system/lib64/hw/sensors.mt8163.so \
+    vendor/bq/mt8163-common/proprietary/lib64/hw/vibrator.default.so:system/lib64/hw/vibrator.default.so \
     vendor/bq/mt8163-common/proprietary/lib64/lib3a.so:system/lib64/lib3a.so \
     vendor/bq/mt8163-common/proprietary/lib64/libBnMtkCodec.so:system/lib64/libBnMtkCodec.so \
     vendor/bq/mt8163-common/proprietary/lib64/libGdmaScalerPipe.so:system/lib64/libGdmaScalerPipe.so \
