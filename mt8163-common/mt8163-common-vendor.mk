@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/mt8163-common/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/bq/mt8163-common/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/bq/mt8163-common/proprietary/bin/ami304d:system/bin/ami304d \
-    vendor/bq/mt8163-common/proprietary/bin/atci_service:system/bin/atci_service \
     vendor/bq/mt8163-common/proprietary/bin/atcid:system/bin/atcid \
     vendor/bq/mt8163-common/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
     vendor/bq/mt8163-common/proprietary/bin/autobt:system/bin/autobt \
