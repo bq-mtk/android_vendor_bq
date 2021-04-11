@@ -200,7 +200,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/mt8163-common/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
     vendor/bq/mt8163-common/proprietary/lib/libfeatureiodrv.so:system/lib/libfeatureiodrv.so \
     vendor/bq/mt8163-common/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
-    vendor/bq/mt8163-common/proprietary/lib/libfmcust.so:system/lib/libfmcust.so \
     vendor/bq/mt8163-common/proprietary/lib/libged.so:system/lib/libged.so \
     vendor/bq/mt8163-common/proprietary/lib/libgpu_aux.so:system/lib/libgpu_aux.so \
     vendor/bq/mt8163-common/proprietary/lib/libhwm.so:system/lib/libhwm.so \
@@ -315,7 +314,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/mt8163-common/proprietary/lib64/libfeatureio.so:system/lib64/libfeatureio.so \
     vendor/bq/mt8163-common/proprietary/lib64/libfeatureiodrv.so:system/lib64/libfeatureiodrv.so \
     vendor/bq/mt8163-common/proprietary/lib64/libfile_op.so:system/lib64/libfile_op.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libfmcust.so:system/lib64/libfmcust.so \
     vendor/bq/mt8163-common/proprietary/lib64/libged.so:system/lib64/libged.so \
     vendor/bq/mt8163-common/proprietary/lib64/libgpu_aux.so:system/lib64/libgpu_aux.so \
     vendor/bq/mt8163-common/proprietary/lib64/libhwm.so:system/lib64/libhwm.so \
