@@ -130,7 +130,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/mt8163-common/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
     vendor/bq/mt8163-common/proprietary/lib/hw/audio.primary.mt8163.so:system/lib/hw/audio.primary.mt8163.so \
     vendor/bq/mt8163-common/proprietary/lib/hw/audio_policy.stub.so:system/lib/hw/audio_policy.stub.so \
-    vendor/bq/mt8163-common/proprietary/lib/hw/camera.mt8163.so:system/lib/hw/camera.mt8163.so \
     vendor/bq/mt8163-common/proprietary/lib/hw/gatekeeper.mt8163.so:system/lib/hw/gatekeeper.mt8163.so \
     vendor/bq/mt8163-common/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
     vendor/bq/mt8163-common/proprietary/lib/hw/gralloc.mt8163.so:system/lib/hw/gralloc.mt8163.so \
@@ -181,35 +180,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/mt8163-common/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/bq/mt8163-common/proprietary/lib/libbtcusttable.so:system/lib/libbtcusttable.so \
     vendor/bq/mt8163-common/proprietary/lib/libbwc.so:system/lib/libbwc.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam.campipe.so:system/lib/libcam.campipe.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam.camshot.so:system/lib/libcam.camshot.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam.device1.so:system/lib/libcam.device1.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam.device3.so:system/lib/libcam.device3.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam.exif.so:system/lib/libcam.exif.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam.exif.v3.so:system/lib/libcam.exif.v3.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam.hal3a.v3.so:system/lib/libcam.hal3a.v3.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam.halsensor.so:system/lib/libcam.halsensor.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam.iopipe.so:system/lib/libcam.iopipe.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam.iopipe_FrmB.so:system/lib/libcam.iopipe_FrmB.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam.metadata.so:system/lib/libcam.metadata.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam.metadataprovider.so:system/lib/libcam.metadataprovider.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam.sdkclient.so:system/lib/libcam.sdkclient.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam.utils.so:system/lib/libcam.utils.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam1_utils.so:system/lib/libcam1_utils.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam3_app.so:system/lib/libcam3_app.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam3_hwnode.so:system/lib/libcam3_hwnode.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam3_hwpipeline.so:system/lib/libcam3_hwpipeline.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam3_pipeline.so:system/lib/libcam3_pipeline.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam3_utils.so:system/lib/libcam3_utils.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam_hwutils.so:system/lib/libcam_hwutils.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam_mmp.so:system/lib/libcam_mmp.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcam_platform.so:system/lib/libcam_platform.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcamalgo.so:system/lib/libcamalgo.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcamdrv_FrmB.so:system/lib/libcamdrv_FrmB.so \
-    vendor/bq/mt8163-common/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
     vendor/bq/mt8163-common/proprietary/lib/libccci_util.so:system/lib/libccci_util.so \
     vendor/bq/mt8163-common/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
     vendor/bq/mt8163-common/proprietary/lib/libcustom_prop.so:system/lib/libcustom_prop.so \
@@ -253,7 +223,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/mt8163-common/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so \
     vendor/bq/mt8163-common/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
     vendor/bq/mt8163-common/proprietary/lib/libmtk_mmutils.so:system/lib/libmtk_mmutils.so \
-    vendor/bq/mt8163-common/proprietary/lib/libmtkcamera_client.so:system/lib/libmtkcamera_client.so \
     vendor/bq/mt8163-common/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
     vendor/bq/mt8163-common/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
     vendor/bq/mt8163-common/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
@@ -294,7 +263,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/mt8163-common/proprietary/lib64/hw/audio.a2dp.default.so:system/lib64/hw/audio.a2dp.default.so \
     vendor/bq/mt8163-common/proprietary/lib64/hw/audio.primary.mt8163.so:system/lib64/hw/audio.primary.mt8163.so \
     vendor/bq/mt8163-common/proprietary/lib64/hw/audio_policy.stub.so:system/lib64/hw/audio_policy.stub.so \
-    vendor/bq/mt8163-common/proprietary/lib64/hw/camera.mt8163.so:system/lib64/hw/camera.mt8163.so \
     vendor/bq/mt8163-common/proprietary/lib64/hw/gatekeeper.mt8163.so:system/lib64/hw/gatekeeper.mt8163.so \
     vendor/bq/mt8163-common/proprietary/lib64/hw/gralloc.default.so:system/lib64/hw/gralloc.default.so \
     vendor/bq/mt8163-common/proprietary/lib64/hw/gralloc.mt8163.so:system/lib64/hw/gralloc.mt8163.so \
@@ -329,35 +297,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/mt8163-common/proprietary/lib64/libbluetoothem_mtk.so:system/lib64/libbluetoothem_mtk.so \
     vendor/bq/mt8163-common/proprietary/lib64/libbtcusttable.so:system/lib64/libbtcusttable.so \
     vendor/bq/mt8163-common/proprietary/lib64/libbwc.so:system/lib64/libbwc.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam.camadapter.so:system/lib64/libcam.camadapter.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam.campipe.so:system/lib64/libcam.campipe.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam.camshot.so:system/lib64/libcam.camshot.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam.device1.so:system/lib64/libcam.device1.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam.device3.so:system/lib64/libcam.device3.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam.exif.so:system/lib64/libcam.exif.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam.exif.v3.so:system/lib64/libcam.exif.v3.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam.hal3a.v3.so:system/lib64/libcam.hal3a.v3.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam.halsensor.so:system/lib64/libcam.halsensor.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam.iopipe.so:system/lib64/libcam.iopipe.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam.iopipe_FrmB.so:system/lib64/libcam.iopipe_FrmB.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam.metadata.so:system/lib64/libcam.metadata.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam.metadataprovider.so:system/lib64/libcam.metadataprovider.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam.paramsmgr.so:system/lib64/libcam.paramsmgr.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam.sdkclient.so:system/lib64/libcam.sdkclient.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam.utils.so:system/lib64/libcam.utils.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam1_utils.so:system/lib64/libcam1_utils.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam3_app.so:system/lib64/libcam3_app.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam3_hwnode.so:system/lib64/libcam3_hwnode.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam3_hwpipeline.so:system/lib64/libcam3_hwpipeline.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam3_pipeline.so:system/lib64/libcam3_pipeline.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam3_utils.so:system/lib64/libcam3_utils.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam_hwutils.so:system/lib64/libcam_hwutils.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam_mmp.so:system/lib64/libcam_mmp.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcam_platform.so:system/lib64/libcam_platform.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcamalgo.so:system/lib64/libcamalgo.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcamdrv.so:system/lib64/libcamdrv.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcamdrv_FrmB.so:system/lib64/libcamdrv_FrmB.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libcameracustom.so:system/lib64/libcameracustom.so \
     vendor/bq/mt8163-common/proprietary/lib64/libccci_util.so:system/lib64/libccci_util.so \
     vendor/bq/mt8163-common/proprietary/lib64/libcustom_nvram.so:system/lib64/libcustom_nvram.so \
     vendor/bq/mt8163-common/proprietary/lib64/libcustom_prop.so:system/lib64/libcustom_prop.so \
@@ -396,7 +335,6 @@ PRODUCT_COPY_FILES += \
     vendor/bq/mt8163-common/proprietary/lib64/libmsbc_mtk.so:system/lib64/libmsbc_mtk.so \
     vendor/bq/mt8163-common/proprietary/lib64/libmtk_drvb.so:system/lib64/libmtk_drvb.so \
     vendor/bq/mt8163-common/proprietary/lib64/libmtk_mmutils.so:system/lib64/libmtk_mmutils.so \
-    vendor/bq/mt8163-common/proprietary/lib64/libmtkcamera_client.so:system/lib64/libmtkcamera_client.so \
     vendor/bq/mt8163-common/proprietary/lib64/libmtkjpeg.so:system/lib64/libmtkjpeg.so \
     vendor/bq/mt8163-common/proprietary/lib64/libmtklimiter.so:system/lib64/libmtklimiter.so \
     vendor/bq/mt8163-common/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
@@ -444,7 +382,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libnvram \
     libnvramagentclient \
-    libcam.client \
-    libcam_utils \
-    libion_mtk \
-    libcam.utils.sensorlistener
+    libion_mtk
