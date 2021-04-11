@@ -126,15 +126,11 @@ PRODUCT_COPY_FILES += \
     vendor/bq/mt8163-common/proprietary/lib/drm/libdrmctaplugin.so:system/lib/drm/libdrmctaplugin.so \
     vendor/bq/mt8163-common/proprietary/lib/drm/libdrmmtkplugin.so:system/lib/drm/libdrmmtkplugin.so \
     vendor/bq/mt8163-common/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
-    vendor/bq/mt8163-common/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
     vendor/bq/mt8163-common/proprietary/lib/hw/audio.primary.mt8163.so:system/lib/hw/audio.primary.mt8163.so \
     vendor/bq/mt8163-common/proprietary/lib/hw/audio_policy.stub.so:system/lib/hw/audio_policy.stub.so \
     vendor/bq/mt8163-common/proprietary/lib/hw/gatekeeper.mt8163.so:system/lib/hw/gatekeeper.mt8163.so \
-    vendor/bq/mt8163-common/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
     vendor/bq/mt8163-common/proprietary/lib/hw/gralloc.mt8163.so:system/lib/hw/gralloc.mt8163.so \
     vendor/bq/mt8163-common/proprietary/lib/hw/hwcomposer.mt8163.so:system/lib/hw/hwcomposer.mt8163.so \
-    vendor/bq/mt8163-common/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
-    vendor/bq/mt8163-common/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
     vendor/bq/mt8163-common/proprietary/lib/hw/sensors.mt8163.so:system/lib/hw/sensors.mt8163.so \
     vendor/bq/mt8163-common/proprietary/lib/lib3a.so:system/lib/lib3a.so \
     vendor/bq/mt8163-common/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
@@ -258,15 +254,11 @@ PRODUCT_COPY_FILES += \
     vendor/bq/mt8163-common/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
     vendor/bq/mt8163-common/proprietary/lib/zterilPara:system/lib/zterilPara \
     vendor/bq/mt8163-common/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
-    vendor/bq/mt8163-common/proprietary/lib64/hw/audio.a2dp.default.so:system/lib64/hw/audio.a2dp.default.so \
     vendor/bq/mt8163-common/proprietary/lib64/hw/audio.primary.mt8163.so:system/lib64/hw/audio.primary.mt8163.so \
     vendor/bq/mt8163-common/proprietary/lib64/hw/audio_policy.stub.so:system/lib64/hw/audio_policy.stub.so \
     vendor/bq/mt8163-common/proprietary/lib64/hw/gatekeeper.mt8163.so:system/lib64/hw/gatekeeper.mt8163.so \
-    vendor/bq/mt8163-common/proprietary/lib64/hw/gralloc.default.so:system/lib64/hw/gralloc.default.so \
     vendor/bq/mt8163-common/proprietary/lib64/hw/gralloc.mt8163.so:system/lib64/hw/gralloc.mt8163.so \
     vendor/bq/mt8163-common/proprietary/lib64/hw/hwcomposer.mt8163.so:system/lib64/hw/hwcomposer.mt8163.so \
-    vendor/bq/mt8163-common/proprietary/lib64/hw/local_time.default.so:system/lib64/hw/local_time.default.so \
-    vendor/bq/mt8163-common/proprietary/lib64/hw/power.default.so:system/lib64/hw/power.default.so \
     vendor/bq/mt8163-common/proprietary/lib64/hw/sensors.mt8163.so:system/lib64/hw/sensors.mt8163.so \
     vendor/bq/mt8163-common/proprietary/lib64/lib3a.so:system/lib64/lib3a.so \
     vendor/bq/mt8163-common/proprietary/lib64/libBnMtkCodec.so:system/lib64/libBnMtkCodec.so \
