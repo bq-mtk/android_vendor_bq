@@ -18,37 +18,4 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),freezerfhd)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libcam.utils.sensorlistener
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_OWNER := mtk
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_PROPRIETARY_MODULE := true
-LOCAL_MULTILIB := both
-LOCAL_SRC_FILES_64 := proprietary/lib64/libcam.utils.sensorlistener.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libcam.utils.sensorlistener.so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libcam.client
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_OWNER := mtk
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_PROPRIETARY_MODULE := true
-LOCAL_MULTILIB := both
-LOCAL_SRC_FILES_64 := proprietary/lib64/libcam.client.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libcam.client.so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libcam_utils
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_OWNER := mtk
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_PROPRIETARY_MODULE := true
-LOCAL_MULTILIB := both
-LOCAL_SRC_FILES_64 := proprietary/lib64/libcam_utils.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libcam_utils.so
-include $(BUILD_PREBUILT)
-
 endif
