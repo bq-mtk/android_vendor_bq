@@ -18,4 +18,26 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter zeno freezerfhd,$(TARGET_DEVICE)),)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := libnvram
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_OWNER := mtk
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MULTILIB := both
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libnvram.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libnvram.so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libnvramagentclient
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_OWNER := mtk
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_PROPRIETARY_MODULE := true
+LOCAL_MULTILIB := both
+LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libnvramagentclient.so
+LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libnvramagentclient.so
+include $(BUILD_PREBUILT)
+
 endif
